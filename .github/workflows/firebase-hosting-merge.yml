@@ -1,0 +1,34 @@
+name: Build and Deploy to Firebase Hosting
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true # Quan trọng: Kéo các theme Hugo (Blowfish) về
+          fetch-depth: 0 # Đảm bảo lấy đủ lịch sử Git cho Hugo .LastMod
+
+      - name: Test Production Docker Image Build (Optimize Sizing Check)
+        run: |
+          docker build -t hugo-ngix-prod .
+          docker images | grep hugo-ngix-prod
+          # Bước này giả lập việc build container siêu nhẹ để test hạ tầng
+
+      - name: Build Hugo Static Files via Build Docker Image
+        run: |
+          # Thay vì cài Hugo lên runner, dùng luôn build image để tách biệt môi trường
+          docker run --rm -v ${{ github.workspace }}:/src klakegg/hugo:ext-alpine --minify --gc
+
+      - name: Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live
+          projectId: theor-devops

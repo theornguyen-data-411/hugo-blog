@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  blog-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hugo-blog:latest
+    container_name: hugo_blog_prod
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

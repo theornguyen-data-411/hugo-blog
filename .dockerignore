@@ -1,0 +1,9 @@
+.git
+.gitignore
+.github
+public/
+resources/_gen/
+node_modules/
+implementation_plan.md
+task.md
+.hugo_build.lock
