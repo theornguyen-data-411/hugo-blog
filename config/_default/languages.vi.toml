@@ -1,0 +1,21 @@
+disabled = false
+languageCode = "vi"
+languageName = "Tiếng Việt"
+weight = 1
+title = "DevOps Blog"
+
+[params]
+  displayName = "VI"
+  isoCode = "vi"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+
+[params.author]
+  name = "Theor Nguyen - DevOps"
+  email = "nguyenthao411.congviec@gmail.com"
+  image = "img/pro5.jpeg"
+  imageQuality = 96
+  headline = "Kỹ sư DevOps"
+  bio = "Tôi là một Kỹ sư DevOps với 1 năm kinh nghiệm về Cloud Computing, Automation và CI/CD pipelines. Tôi có đam mê xây dựng các hệ thống và hạ tầng mở rộng đáng tin cậy."

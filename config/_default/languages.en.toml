@@ -1,8 +1,8 @@
 disabled = false
 languageCode = "en"
 languageName = "English"
-weight = 1
-title = "Blowfish"
+weight = 2
+title = "DevOps Blog"
 
 [params]
   displayName = "EN"
@@ -14,13 +14,13 @@ title = "Blowfish"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
+[params.author]
+  name = "Theor Nguyen - DevOps"
+  email = "nguyenthao411.congviec@gmail.com"
+  image = "img/pro5.jpeg"
+  imageQuality = 96
+  headline = "DevOps Engineer"
+  bio = "I'm a DevOps Engineer with 1 years of experience in cloud computing, automation, and CI/CD pipelines. I'm passionate about building scalable and reliable infrastructure."
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },

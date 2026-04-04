@@ -1,37 +1,37 @@
 [[main]]
-  name = "Blog"
+  name = "Bài viết"
   pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Topics"
+  name = "Chủ đề"
   weight = 20
 
 [[main]]
   name = "CI/CD"
-  parent = "Topics"
+  parent = "Chủ đề"
   pageRef = "tags/ci-cd"
   weight = 10
 
 [[main]]
   name = "Cloud"
-  parent = "Topics"
+  parent = "Chủ đề"
   pageRef = "tags/cloud"
   weight = 20
 
 [[main]]
   name = "Automation"
-  parent = "Topics"
+  parent = "Chủ đề"
   pageRef = "tags/automation"
   weight = 30
 
 [[main]]
-  name = "All Tags"
-  parent = "Topics"
+  name = "Tất cả thẻ (Tags)"
+  parent = "Chủ đề"
   pageRef = "tags"
   weight = 40
 
 [[main]]
-  name = "Series"
+  name = "Chuỗi bài (Series)"
   pageRef = "series"
   weight = 30
