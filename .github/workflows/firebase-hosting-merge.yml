@@ -11,8 +11,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          submodules: true     # Kéo theme Blowfish (git submodule) về
-          fetch-depth: 0       # Lấy đủ lịch sử Git cho .LastMod của Hugo
+          submodules: true # Kéo theme Blowfish (git submodule) về
+          fetch-depth: 0 # Lấy đủ lịch sử Git cho .LastMod của Hugo
 
       # Bước 1: Validate hạ tầng — kiểm tra Docker Image build được không
       - name: Validate Production Docker Image
@@ -26,8 +26,9 @@ jobs:
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/src \
+            -w /src \
             hugomods/hugo:exts \
-            hugo --minify --gc
+            hugo --minify --gc --baseURL "https://theor-devops.web.app/"
 
       # Bước 3: Deploy thư mục public/ lên Firebase Hosting
       - name: Deploy to Firebase Hosting
