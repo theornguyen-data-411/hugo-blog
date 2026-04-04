@@ -11,20 +11,25 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          submodules: true # Quan trọng: Kéo các theme Hugo (Blowfish) về
-          fetch-depth: 0 # Đảm bảo lấy đủ lịch sử Git cho Hugo .LastMod
+          submodules: true     # Kéo theme Blowfish (git submodule) về
+          fetch-depth: 0       # Lấy đủ lịch sử Git cho .LastMod của Hugo
 
-      - name: Test Production Docker Image Build (Optimize Sizing Check)
+      # Bước 1: Validate hạ tầng — kiểm tra Docker Image build được không
+      - name: Validate Production Docker Image
         run: |
-          docker build -t hugo-ngix-prod .
-          docker images | grep hugo-ngix-prod
-          # Bước này giả lập việc build container siêu nhẹ để test hạ tầng
+          docker build -t hugo-blog-prod:ci .
+          echo "✅ Docker image size:"
+          docker images hugo-blog-prod:ci --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}"
 
-      - name: Build Hugo Static Files via Build Docker Image
+      # Bước 2: Build Hugo ra folder public/ bằng image đã đúng version
+      - name: Build Hugo Static Files
         run: |
-          # Thay vì cài Hugo lên runner, dùng luôn build image để tách biệt môi trường
-          docker run --rm -v ${{ github.workspace }}:/src klakegg/hugo:ext-alpine --minify --gc
+          docker run --rm \
+            -v ${{ github.workspace }}:/src \
+            hugomods/hugo:exts \
+            hugo --minify --gc
 
+      # Bước 3: Deploy thư mục public/ lên Firebase Hosting
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
