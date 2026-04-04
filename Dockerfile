@@ -1,7 +1,8 @@
 # ========================================
 # Build Stage
 # ========================================
-FROM klakegg/hugo:ext-alpine AS builder
+# hugomods/hugo:exts hỗ trợ Hugo Extended mới nhất (compatible với Blowfish theme)
+FROM hugomods/hugo:exts-0.159.2 AS builder
 
 WORKDIR /src
 COPY . .
