@@ -9,7 +9,17 @@
     <managingEditor>nguyenthao411.congviec@gmail.com (Theor Nguyen - DevOps)</managingEditor>
     <webMaster>nguyenthao411.congviec@gmail.com (Theor Nguyen - DevOps)</webMaster>
     <copyright>© 2026 Theor Nguyen - DevOps</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Xây dựng Blog DevOps với Hugo, Docker và Firebase CI/CD</title>
+      <link>http://localhost:1313/posts/xay-dung-blog-devops-hugo-docker-firebase/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <author>nguyenthao411.congviec@gmail.com (Theor Nguyen - DevOps)</author>
+      <guid>http://localhost:1313/posts/xay-dung-blog-devops-hugo-docker-firebase/</guid>
+      <description>&lt;p&gt;Đây là bài viết đầu tiên trên blog. Thay vì viết lý thuyết chay, mình quyết định bắt đầu bằng chính việc xây dựng cái blog này — áp dụng luôn các kỹ năng DevOps vào một dự án thực tế có thể nhìn thấy được.&lt;/p&gt;&#xA;&lt;p&gt;Bài viết này sẽ breakdown toàn bộ quá trình: từ chọn công nghệ, containerize ứng dụng, đến thiết lập một pipeline CI/CD hoàn chỉnh tự động deploy lên Firebase mỗi khi push code.&lt;/p&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>

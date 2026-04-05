@@ -9,7 +9,17 @@
     <managingEditor>nguyenthao411.congviec@gmail.com (Theor Nguyen - DevOps)</managingEditor>
     <webMaster>nguyenthao411.congviec@gmail.com (Theor Nguyen - DevOps)</webMaster>
     <copyright>© 2026 Theor Nguyen - DevOps</copyright>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building a DevOps Blog with Hugo, Docker, and Firebase CI/CD</title>
+      <link>http://localhost:1313/en/posts/xay-dung-blog-devops-hugo-docker-firebase/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <author>nguyenthao411.congviec@gmail.com (Theor Nguyen - DevOps)</author>
+      <guid>http://localhost:1313/en/posts/xay-dung-blog-devops-hugo-docker-firebase/</guid>
+      <description>&lt;p&gt;This is the very first post on this blog. Instead of writing theoretical articles, I decided to start by building the blog itself—applying DevOps skills to a real, visible project.&lt;/p&gt;&#xA;&lt;p&gt;This post will breakdown the entire process: from choosing the technology stack, containerizing the application, to setting up a complete CI/CD pipeline that automatically deploys to Firebase every time I push code.&lt;/p&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>

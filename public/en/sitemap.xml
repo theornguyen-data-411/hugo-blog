@@ -3,7 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/en/posts/xay-dung-blog-devops-hugo-docker-firebase/</loc>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-us"
+      href="http://localhost:1313/posts/xay-dung-blog-devops-hugo-docker-firebase/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/posts/xay-dung-blog-devops-hugo-docker-firebase/"
+    />
+  </url>
+  <url>
     <loc>http://localhost:1313/en/</loc>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -15,6 +32,22 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/en/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/posts/</loc>
+    <lastmod>2026-04-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en-us"
+      href="http://localhost:1313/posts/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/en/posts/"
     />
   </url>
 </urlset>
