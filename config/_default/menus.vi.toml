@@ -33,10 +33,10 @@
 
 [[main]]
   name = "Chuỗi bài (Series)"
-  pageRef = "/series"
+  pageRef = "series"
   weight = 30
 
 [[main]]
   name = "Về tôi"
-  pageRef = "/about"
+  pageRef = "about"
   weight = 40
