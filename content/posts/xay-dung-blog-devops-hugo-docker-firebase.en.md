@@ -11,7 +11,6 @@ heroStyle: "background"
 showTableOfContents: true
 showReadingTime: true
 showWordCount: true
-showSummary: true
 ---
 
 This is the very first post on this blog. Instead of writing theoretical articles, I decided to start by building the blog itself—applying DevOps skills to a real, visible project.

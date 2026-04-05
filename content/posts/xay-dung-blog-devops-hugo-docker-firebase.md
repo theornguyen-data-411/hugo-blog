@@ -11,7 +11,6 @@ heroStyle: "background"
 showTableOfContents: true
 showReadingTime: true
 showWordCount: true
-showSummary: true
 ---
 
 Đây là bài viết đầu tiên trên blog. Thay vì viết lý thuyết chay, mình quyết định bắt đầu bằng chính việc xây dựng cái blog này — áp dụng luôn các kỹ năng DevOps vào một dự án thực tế có thể nhìn thấy được.
