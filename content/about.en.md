@@ -18,41 +18,41 @@ Here are some key milestones on my journey:
 
 {{< timeline >}}
 
-{{< timelineItem icon="book-open" header="Education: FPT University" badge="Aug 2023 - Expected Sep 2026" subheader="Bachelor of Software Engineering" >}}
+{{< timelineItem md="true" icon="book-open" header="Education: FPT University" badge="Aug 2023 - Expected Sep 2026" subheader="Bachelor of Software Engineering" >}}
 - **GPA:** 3.32 / 4.0
 - **Focus Areas:** Cloud Computing, DevOps Practices, System Architecture.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="award" header="Certifications" badge="2025" >}}
+{{< timelineItem md="true" icon="award" header="Certifications" badge="2025" >}}
 - **AWS Certified Solutions Architect – Associate** (Expected 2025)
 - **Cisco Certified Network Associate (CCNA)**
 - **Docker & Kubernetes for Developers** (Coursera)
 {{< /timelineItem >}}
 
-{{< timelineItem icon="briefcase" header="Java Teacher - MindX Technology School" badge="Oct 2024 - Present" subheader="Advanced Programming Training" >}}
+{{< timelineItem md="true" icon="briefcase" header="Java Teacher - MindX Technology School" badge="Oct 2024 - Present" subheader="Advanced Programming Training" >}}
 - Designed and taught advanced OOP and Data Structure lessons for high school students.
 - Developed internal teaching tools using Spring Boot + HTML/CSS/JS, deployed on AWS EC2 for real-time learning.
 - Mentored 20+ students in coding best practices and debugging workflows.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="briefcase" header="Back-end Developer - RainBoot" badge="May 2024 - Aug 2024" subheader="System CMS Development" >}}
+{{< timelineItem md="true" icon="briefcase" header="Back-end Developer - RainBoot" badge="May 2024 - Aug 2024" subheader="System CMS Development" >}}
 - Built backend architecture with Java and MySQL, ensuring efficient API communication.
 - Optimized SQL queries to reduce response time and increased backend error detection speed by 50%.
 - Deployed application on Render Cloud, integrating with GitHub Actions for automated updates.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="star" header="Key Achievements" badge="2024" >}}
+{{< timelineItem md="true" icon="star" header="Key Achievements" badge="2024" >}}
 - **Top 1:** CocCoc Innovation Challenge - Innovative Web Application Design.
 - **Top 2:** TechXpo Challenge (Over 400 participants).
 - **SHEngineer Talent Intern Scholarship:** Sponsored by the U.S. Embassy.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="terminal" header="Project: Serverless Full-Stack (AWS Amplify)" badge="Sep 2025 - Present" subheader="Featured Academic Project" >}}
+{{< timelineItem md="true" icon="terminal" header="Project: Serverless Full-Stack (AWS Amplify)" badge="Sep 2025 - Present" subheader="Featured Academic Project" >}}
 - Designed and deployed a serverless full-stack web application using AWS Amplify, focusing on authentication and data access automation.
 - Integrated Amazon Cognito for secure user authentication and role-based access control.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="briefcase" header="IT Trainee - American Study" badge="May 2023 - Oct 2023" subheader="Technical Support & Web Development" >}}
+{{< timelineItem md="true" icon="briefcase" header="IT Trainee - American Study" badge="May 2023 - Oct 2023" subheader="Technical Support & Web Development" >}}
 - Built and customized student portfolio websites using WordPress.
 - Integrated OpenCV with camera hardware for real-time image recognition.
 {{< /timelineItem >}}
